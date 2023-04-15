@@ -115,6 +115,15 @@ const technologies = [
 ];
 
 const experiences = [
+ 
+  {
+    title: "Something good's coming up",
+    company_name: "....",
+    icon: tesla,
+    iconBg: "#E6DEDD",
+    date: "February 2023 - Present",
+    points: ["On my pathway to gain more experience...."],
+  },
   {
     title: "Web Developer (Freelance)",
     company_name: "Atariya Home Decor",
@@ -126,14 +135,6 @@ const experiences = [
       "Creating payment gateway and all the functionalities.",
       "Implementing responsive design and ensuring cross-browser compatibility.",
     ],
-  },
-  {
-    title: "Something good's coming up",
-    company_name: "....",
-    icon: tesla,
-    iconBg: "#E6DEDD",
-    date: "February 2023 - Present",
-    points: ["On my pathway to gain more experience...."],
   },
 ];
 
