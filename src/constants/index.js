@@ -109,8 +109,8 @@ const technologies = [
   //   icon: figma,
   // },
   {
-    name: "docker",
-    icon: Java,
+    name: "Java",
+    icon: docker,
   },
 ];
 
