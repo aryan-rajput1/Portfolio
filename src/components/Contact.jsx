@@ -74,7 +74,6 @@ const Contact = () => {
       >
         <p className={styles.sectionSubText}>Get in touch</p>
         <h3 className={styles.sectionHeadText}>Contact</h3>
-
         <form
           ref={formRef}
           onSubmit={handleSubmit}
