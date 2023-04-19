@@ -30,7 +30,7 @@ const Navbar = () => {
       className={`${
         styles.paddingX
       } w-full flex items-center py-5 fixed top-0 z-20 ${
-        scrolled ? "bg-primary" : "bg-transparent"
+        scrolled ? "backdrop-blur-xl" : "backdrop-blur-md"
       }`}
     >
       <div className='w-full flex justify-between items-center max-w-7xl mx-auto'>
@@ -57,7 +57,7 @@ const Navbar = () => {
             <BouncingLetter letter="h" />
             <BouncingLetter letter="a" />
             <BouncingLetter letter="n" />
-            <span className="sm:block hidden">FullStack developer</span>{" "}
+            <span className="sm:block hidden text-violet-600">FullStack developer</span>{" "}
           </p>
         </Link>
 
@@ -65,9 +65,9 @@ const Navbar = () => {
           {navLinks.map((nav) => (
             <li
               key={nav.id}
-              className={`${
-                active === nav.title ? "text-white" : "text-secondary"
-              } hover:text-white text-[18px] font-medium cursor-pointer`}
+              className={
+                `${active === nav.title ? "text-zinc-950" : "text-violet"} 
+                hover:text-violet-600 text-[18px] text-lg cursor-pointer`}
               onClick={() => setActive(nav.title)}
             >
               <a href={`#${nav.id}`}>{nav.title}</a>
