@@ -227,7 +227,7 @@ const projects = [
   {
     name: "Customized Bites",
     description:
-      "A React application that allows users to customize their favorite food items according to their preferences and quantity of people going to consume that food. this website is made fully responsive and mobile friendly.",
+      "(Ongoing) A React application that allows users to customize their favorite food items according to their preferences and quantity of people going to consume. this website is made fully responsive and mobile friendly.",
     tags: [
       {
         name: "React",
