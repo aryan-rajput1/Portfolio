@@ -21,7 +21,7 @@ import {
   shopify,
   carrent,
   jobit,
-  tripguide,
+  custombites,
   threejs,
 } from "../assets";
 
@@ -224,27 +224,27 @@ const projects = [
     image: jobit,
     source_code_link: "https://github.com/aryan-rajput1/Text-Utils-app",
   },
-  // {
-  //   name: "Trip Guide",
-  //   description:
-  //     "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-  //   tags: [
-  //     {
-  //       name: "nextjs",
-  //       color: "blue-text-gradient",
-  //     },
-  //     {
-  //       name: "supabase",
-  //       color: "green-text-gradient",
-  //     },
-  //     {
-  //       name: "css",
-  //       color: "pink-text-gradient",
-  //     },
-  //   ],
-  //   image: tripguide,
-  //   source_code_link: "https://github.com/",
-  // },
+  {
+    name: "Customized Bites",
+    description:
+      "A React application that allows users to customize their favorite food items according to their preferences and quantity of people going to consume that food. this website is made fully responsive and mobile friendly.",
+    tags: [
+      {
+        name: "React",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Tailwind css",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Node JS",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: custombites,
+    source_code_link: "https://github.com/aryan-rajput1/Customized-Bites",
+  },
 ];
 
 export { services, technologies, experiences, testimonials, projects };
