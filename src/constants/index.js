@@ -123,7 +123,6 @@ const technologies = [
 ];
 
 const experiences = [
- 
   {
     title: "Something good's coming up",
     company_name: "....",
